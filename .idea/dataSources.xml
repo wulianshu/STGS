@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2333874916">
+    <data-source source="LOCAL" name="MySQL - @localhost" uuid="f7ec875f-8e65-47e2-ad4a-4baf2d8b9636">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/stgsdb</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfccdfcfdfc4dfcddf9bdf93df93df98df9bdf98df98df9f</user-password>
+      <schema-pattern>stgsdb.*</schema-pattern>
+      <default-schemas>stgsdb.* vosmapdata.*</default-schemas>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

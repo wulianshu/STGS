@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="model.BaseModel" table="base" schema="" catalog="stgsdb">
+        <id name="id">
+            <column name="ID" sql-type="int" not-null="true"/>
+        </id>
+        <property name="loginName">
+            <column name="LOGIN_NAME" sql-type="varchar" length="100"/>
+        </property>
+        <property name="loginPassword">
+            <column name="LOGIN_PASSWORD" sql-type="varchar" length="200" not-null="true"/>
+        </property>
+        <property name="realName">
+            <column name="REAL_NAME" sql-type="varchar" length="20"/>
+        </property>
+    </class>
+</hibernate-mapping>
